@@ -1,5 +1,8 @@
+/* HEADER */
+
 header {
     width: 100%;
+    position: relative;
 }
 .headbar {
     width: 100%;
@@ -7,13 +10,32 @@ header {
     background-color: white;
     display: flex;
     align-items: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9;
+}
+.logo {
+    padding-inline: 1rem;
+}
+.input-group {
+    width: 80%;
 }
 .items {
     display: flex;
     align-items: center;
 }
+.items i {
+    padding-inline: 1rem;
+}
 .items i:hover {
     cursor: pointer;
+}
+
+/* MAIN */
+
+main {
+    position: relative;
 }
 .sidebar {
     height: calc(100vh - 4rem);
@@ -23,6 +45,10 @@ header {
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
+    position: absolute;
+    left: 0;
+    top: 4rem;
+    z-index: 9;
 }
 .items-menu {
     display: flex;
