@@ -18,6 +18,10 @@ header {
 .logo {
     padding-inline: 1rem;
 }
+.small {
+    width: 100%;
+    display: none;
+}
 .input-group {
     width: 80%;
 }
@@ -50,6 +54,10 @@ main {
     top: 4rem;
     z-index: 9;
 }
+.small {
+    width: 100%;
+    display: none;
+}
 .items-menu {
     display: flex;
     justify-content: center;
@@ -58,15 +66,44 @@ main {
     margin-right: 1rem;
 }
 @media (max-width: 768px) {
+    .logo {
+        width: 15%;
+    }
+    .small {
+        display: block;
+    }
+    .big {
+        display: none;
+    }
     .sidebar {
         width: 4rem;
     }
     .items-menu p {
         display: none;
     }
+    .items-menu i {
+        margin-top: 1rem;
+    }
+    .gear {
+        margin-bottom: 1rem;
+    }
 }
-.container {
+@media (max-width: 500px) {
+    .logo {
+        width: 30%;
+    }
+/* CONTAINER */
+
+.main-content {
     height: calc(100vh - 4rem);
     width: calc(100% - 8rem);
     overflow-y: auto;
+    position: absolute;
+    top: 4rem;
+    left: 8rem;
+}
+.bluebar {
+    background-color: #1B72E8;
+    height: 5rem;
+    width: 100%;
 }
