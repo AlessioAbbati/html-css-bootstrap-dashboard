@@ -87,11 +87,13 @@ main {
     .gear {
         margin-bottom: 1rem;
     }
+    
 }
 @media (max-width: 500px) {
     .logo {
         width: 30%;
     }
+}    
 /* CONTAINER */
 
 .main-content {
@@ -101,6 +103,12 @@ main {
     position: absolute;
     top: 4rem;
     left: 8rem;
+}
+@media (max-width: 768px) {
+    .main-content {
+        width: calc(100% - 4rem);
+        left: 4rem;
+    }
 }
 .bluebar {
     background-color: #1B72E8;
