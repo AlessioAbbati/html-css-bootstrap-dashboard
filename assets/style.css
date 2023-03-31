@@ -35,7 +35,11 @@ header {
 .items i:hover {
     cursor: pointer;
 }
-
+@media (max-width: 768px) {
+    .head-dn {
+        display: none;
+    }
+}
 /* MAIN */
 
 main {
