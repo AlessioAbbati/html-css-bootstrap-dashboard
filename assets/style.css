@@ -129,11 +129,20 @@ main {
     padding-left: 2rem;
     font-size: 2rem;
 }
+.pill-plus {
+    display: none;
+}
 .stats {
     width: 100%;
 }
 .avatar {
     max-width: 10%;
+}
+
+@media (max-width: 768px) {
+    .pill-plus {
+        display: block;
+    }
 }
 @media (max-width: 540px) {
     .dn {
