@@ -13,7 +13,6 @@ header {
     position: absolute;
     left: 0;
     top: 0;
-    z-index: 9;
 }
 .logo {
     padding-inline: 1rem;
@@ -126,7 +125,7 @@ main {
 }
 .plus {
     color: white;
-    padding-left: 2rem;
+    margin-left: 2rem;
     font-size: 2rem;
 }
 .pill-plus {
