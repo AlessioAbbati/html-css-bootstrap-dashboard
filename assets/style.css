@@ -118,6 +118,7 @@ main {
 .bluebar {
     background-color: #1B72E8;
     width: 100%;
+    color: white;
 }
 .blue-contents {
     display: flex;
