@@ -138,7 +138,9 @@ main {
 .avatar {
     max-width: 10%;
 }
-
+.white-row {
+    background-color: white;
+}
 @media (max-width: 768px) {
     .pill-plus {
         display: block;
