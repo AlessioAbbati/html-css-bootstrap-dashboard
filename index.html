@@ -84,7 +84,7 @@
                                     <thead>
                                       <tr>
                                         <th scope="col">Nome</th>
-                                        <th class="dn" scope="col">Data inizio</th>
+                                        <th class="dn text-nowrap" scope="col">Data inizio</th>
                                         <th class="dn" scope="col">ROI</th>
                                         <th scope="col">Status</th>
                                         <th scope="col">Azioni</th>
@@ -94,21 +94,21 @@
                                     <tbody>
                                       <tr>
                                         <td><img class="avatar" src="img/class-avatar.jpg" alt=""> Classe 75</td>
-                                        <td class="dn">15 feb 2021</td>
+                                        <td class="dn text-nowrap">15 feb 2021</td>
                                         <td class="dn">20%</td>
                                         <td><span class="badge rounded-pill text-bg-success">Done</span></td>
                                         <td></td>
                                       </tr>
                                       <tr>
                                         <td><img class="avatar" src="img/class-avatar.jpg" alt=""> Classe 76</td>
-                                        <td class="dn">16 feb 2021</td>
+                                        <td class="dn text-nowrap">16 feb 2021</td>
                                         <td class="dn">20%</td>
                                         <td><span class="badge rounded-pill text-bg-success">Done</span></td>
                                         <td></td>
                                       </tr>
                                       <tr>
                                         <td><img class="avatar" src="img/class-avatar.jpg" alt=""> Classe 77</td>
-                                        <td class="dn">17 feb 2021</td>
+                                        <td class="dn text-nowrap">17 feb 2021</td>
                                         <td class="dn">20%</td>
                                         <td><span class="badge rounded-pill text-bg-warning">Process</span></td>
                                         <td></td>
@@ -116,35 +116,35 @@
                                       </tr>
                                       <tr>
                                         <td><img class="avatar" src="img/class-avatar.jpg" alt=""> Classe 78</td>
-                                        <td class="dn">18 feb 2021</td>
+                                        <td class="dn text-nowrap">18 feb 2021</td>
                                         <td class="dn">20%</td>
                                         <td><span class="badge rounded-pill text-bg-success">Done</span></td>
                                         <td></td>
                                       </tr>
                                       <tr>
                                         <td><img class="avatar" src="img/class-avatar.jpg" alt=""> Classe 79</td>
-                                        <td class="dn">19 feb 2021</td>
+                                        <td class="dn text-nowrap">19 feb 2021</td>
                                         <td class="dn">20%</td>
                                         <td><span class="badge rounded-pill text-bg-danger">Failed</span></td>
                                         <td></td>
                                       </tr>
                                       <tr>
                                         <td><img class="avatar" src="img/class-avatar.jpg" alt=""> Classe 80</td>
-                                        <td class="dn">20 feb 2021</td>
+                                        <td class="dn text-nowrap">20 feb 2021</td>
                                         <td class="dn">20%</td>
                                         <td><span class="badge rounded-pill text-bg-success">Done</span></td>
                                         <td></td>
                                       </tr>
                                       <tr>
                                         <td><img class="avatar" src="img/class-avatar.jpg" alt=""> Classe 81</td>
-                                        <td class="dn">21 feb 2021</td>
+                                        <td class="dn text-nowrap">21 feb 2021</td>
                                         <td class="dn">20%</td>
                                         <td><span class="badge rounded-pill text-bg-danger">Failed</span></td>
                                         <td></td>
                                       </tr>
                                       <tr>
                                         <td><img class="avatar" src="img/class-avatar.jpg" alt=""> Classe 82</td>
-                                        <td class="dn">22 feb 2021</td>
+                                        <td class="dn text-nowrap">22 feb 2021</td>
                                         <td class="dn">20%</td>
                                         <td><span class="badge rounded-pill text-bg-success">Done</span></td>
                                         <td></td>
@@ -206,14 +206,14 @@
                                     <li class="list-group-item">
                                       <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
                                       <label class="form-check-label" for="firstCheckbox">Kickoff nuove classi</label>
-                                    </li>
+                                    </li> 
                                     <li class="list-group-item">
                                       <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
                                       <label class="form-check-label" for="secondCheckbox">Lezione su Bootstrap5 in classe #75</label>
                                     </li>
                                     <li class="list-group-item">
                                       <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
-                                      <label class="form-check-label" for="thirdCheckbox">Controllare user Github studenti</label>
+                                      <label class="form-check-label" for="thirdCheckbox">Controllare username Github studenti</label>
                                     </li>
                                 </ul>
                               
@@ -221,33 +221,24 @@
                         </div>
                         <div class="card">
                             <div class="card-body">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <img class="stats" src="img/stats.jpeg" alt="">
-                                        <table class="table">
-                                            <thead>
-                                              <tr>
-                                                <th scope="col">Utenti attivi</th>
-                                                
-                                              </tr>
-                                            </thead>
-                                            <tbody>
-                                              <tr>
-                                                <th scope="row">Gennaio: 1200</th>
-                                                </tr>
-                                              <tr>
-                                                <th scope="row">Febbraio: 800</th>
-                                                </tr>
-                                              <tr>
-                                                <th scope="row">Marzo: 1500</th>
-                                                </tr>
-                                              <tr>
-                                                <th scope="row"><a href="">Visualizza report approfondito</a></th>
-                                                </tr>
-                                            </tbody>
-                                          </table>
+                                    <div class="card" style="width: auto;">
+                                        <img src="img/stats.jpeg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Utenti attivi</h5>
+                                          <p class="card-text">Lista degli utenti attivi in piattaforma nell'ultimo mese</p>
+                                        </div>
+                                        <ul class="list-group list-group-flush">
+                                          <li class="list-group-item">Gennaio: 1200</li>
+                                          <li class="list-group-item">Febbraio: 800</li>
+                                          <li class="list-group-item">Marzo: 1500</li>
+                                        </ul>
+                                        <div class="card-body">
+                                          <a href="#" class="card-link">Visualizzi report approfondito</a>
+                                        </div>
+                                      </div>
+                                    
+                                    
                                     </div>
-                                </div>
                             </div>
                         </div>
                     </div>
