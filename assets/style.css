@@ -48,6 +48,8 @@ main {
     height: calc(100vh - 4rem);
     width: 8rem;
     background-image: url("../img/sidebar-bg.png");
+    background-color: rgb(5, 30, 52);
+    color: white;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
