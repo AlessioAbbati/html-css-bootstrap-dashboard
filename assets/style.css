@@ -120,5 +120,10 @@ main {
     width: 100%;
 }
 .avatar {
-    width: 10%;
+    max-width: 10%;
+}
+@media (max-width: 540px) {
+    .dn {
+        display: none;
+    }
 }
