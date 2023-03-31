@@ -64,9 +64,18 @@ main {
 .items-menu {
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+.items-menu p {
+    vertical-align: middle;
 }
 .items-menu i {
     margin-right: 1rem;
+}
+
+.items-menu:hover {
+    background-color: lightslategray;
+    cursor: pointer;
 }
 @media (max-width: 768px) {
     .logo {
@@ -130,6 +139,9 @@ main {
 }
 .pill-plus {
     display: none;
+}
+.student {
+    font-size: 2rem;
 }
 .stats {
     width: 100%;
