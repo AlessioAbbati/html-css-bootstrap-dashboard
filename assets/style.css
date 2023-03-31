@@ -113,8 +113,16 @@ main {
 }
 .bluebar {
     background-color: #1B72E8;
-    height: 5rem;
     width: 100%;
+}
+.blue-contents {
+    display: flex;
+    align-items: center;
+}
+.plus {
+    color: white;
+    padding-left: 2rem;
+    font-size: 2rem;
 }
 .stats {
     width: 100%;
