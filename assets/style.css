@@ -152,6 +152,15 @@ main {
 .white-row {
     background-color: white;
 }
+.p-t {
+    display: flex;
+}
+.p-t button {
+    border-radius: .3rem;
+}
+.pen, .trash {
+    color: gray;
+}
 @media (max-width: 768px) {
     .pill-plus {
         display: block;
